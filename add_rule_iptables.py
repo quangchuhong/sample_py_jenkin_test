@@ -64,6 +64,6 @@ line06 = '-A OUTPUT -d 10.0.18.18 -p tcp -m state --state NEW -m tcp --dport 152
 
 # call file add rule iptables
 add_rules_input(line01,line02,line03)
-
+print("done done done !!!!")
 
 
